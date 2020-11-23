@@ -1,0 +1,37 @@
+.home {
+  width: 791.5px;
+  padding-top: 210.6px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__subtitle {
+    text-transform: uppercase;
+    letter-spacing: 5.59px;
+    line-height: 17.13px;
+  }
+
+  &__title {
+    font-family: "Banny", sans-serif;
+    font-size: 89.46px;
+    line-height: 129.53px;
+    text-transform: uppercase;
+
+    margin-bottom: 33.55px;
+  }
+
+  &__actions {
+    width: 410.01px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto 76.41px;
+  }
+
+  &__down {
+    display: block;
+    width: 55.91px;
+    height: 55.91px;
+    background-image: url("./../images/down-btn.png");
+    margin: 0 auto;
+  }
+}

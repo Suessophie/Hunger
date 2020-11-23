@@ -5,9 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <div class="main">
+      <header class="header">
+
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <div class="nav__block">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Home
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  About
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Team
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Booking
+                </a>
+              </li>
+            </div>
+            <img
+              class="nav__logo"
+              src="./images/logo.png"
+              alt="logo"
+            >
+            <div class="nav__block">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Menu
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Galerie
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Events
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Contact
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+
+        <section class="header__home home">
+          <h5 class="home__subtitle">
+            Restaurant
+          </h5>
+          <h1 class="home__title">
+            Hungry people
+          </h1>
+          <div class="home__actions">
+            <button
+              class="home__button button button--small"
+            >
+              Book table
+            </button>
+            <button
+              class="home__button button button--small"
+            >
+              Explore
+            </button>
+          </div>
+          <a
+            class="home__down"
+            href="#"
+          >
+          </a>
+        </section>
+
+      </header>
+
+      <section class="book">
+
+        <div class="book__content">
+          <h2 class="book__title">
+            Book a table
+          </h2>
+          <form
+            class="book__form form"
+          >
+            <input
+              class="form__input form__input--name"
+              type="text"
+              placeholder="Name"
+            >
+            <input
+              class="form__input form__input--email"
+              type="email"
+              placeholder="Email"
+            >
+            <input
+              class="form__input form__input--phone"
+              type="tel"
+              placeholder="Phone"
+            >
+            <select
+              class="form__input form__input--people"
+            >
+              <option>
+                People
+              </option>
+            </select>
+            <input
+              class="form__input form__input--date"
+              type="date"
+            >
+            <input
+              class="form__input form__input--time"
+              type="time"
+            >
+            <button class="form__button button button--big">
+              Book now
+            </button>
+          </form>
+        </div>
+
+        <img
+          class="book__image"
+          src="./images/book.png"
+          alt=""
+        >
+
+      </section>
+    </div>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

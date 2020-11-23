@@ -2,6 +2,34 @@
 @import "fonts";
 @import "typography";
 
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/home.scss";
+@import "./blocks/button.scss";
+@import "./blocks/book.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.18px;
+  font-weight: 700;
+  color: white;
+}
+
 body {
-  background: $c-gray;
+  background-color: grey;
+}
+
+.main {
+  width: 1342px;
+  margin: 0 auto;
+
+  background-color: white;
 }
