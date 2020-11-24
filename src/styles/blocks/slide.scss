@@ -17,6 +17,19 @@
   &__image {
     width: 682px;
     height: 537px;
+    position: relative;
+  }
+
+  &__imageMain {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &__imageDecor {
+    position: absolute;
+    left: 0;
+    top: 56px;
   }
 
   &__content {
@@ -27,6 +40,7 @@
   &__title {
     font-family: "Banny Round", sans-serif;
     font-size: 33.55px;
+    font-weight: 400;
     text-transform: uppercase;
     padding-bottom: 18.63px;
     margin-bottom: 10px;

@@ -37,11 +37,22 @@
   }
 
   &__image {
-    background-image: url("./../images/book.png");
-    background-repeat: no-repeat;
     height: 537px;
     width: 669px;
     margin-top: 23.64px;
+    position: relative;
+  }
+
+  &__imageMain {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__imageDecor {
+    position: absolute;
+    top: 56px;
+    right: 0;
   }
 
   &__info {
