@@ -25,7 +25,7 @@
     left: 0;
   }
 
-  &__social {
+  &__socialnets {
     position: absolute;
     top: 316.83px;
     right: 73.62px;
@@ -38,7 +38,7 @@
       left: -100px;
     }
 
-    &__social {
+    &__socialnets {
       right: 5px;
     }
   }
@@ -47,7 +47,8 @@
 @media screen and (max-width: 565px) {
   .header {
     &__timer {
-      top: 163.3px;
+      top: 170px;
+      left: calc(50% - 120px);
     }
   }
 }

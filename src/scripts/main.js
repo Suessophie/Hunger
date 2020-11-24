@@ -1,12 +1,12 @@
 'use strict';
 
-let min = '20';
-let sec = '00';
+let min = '0';
+let sec = '10';
 
 const id = setInterval(timer, 1000);
 
 function timer() {
-  if (min === '0' && sec === '00') {
+  if (+min === 0 && +sec === 0) {
     clearInterval(id);
 
     return;
