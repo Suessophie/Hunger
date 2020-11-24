@@ -27,6 +27,13 @@
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: transparent;
+      color: yellow;
+      border: 1px solid yellow;
+    }
   }
 }
 

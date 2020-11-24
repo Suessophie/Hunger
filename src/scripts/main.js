@@ -1,7 +1,7 @@
 'use strict';
 
-let min = '0';
-let sec = '10';
+let min = '13';
+let sec = '59';
 
 const id = setInterval(timer, 1000);
 
