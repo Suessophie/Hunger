@@ -1,4 +1,53 @@
 .header {
   background-image: url("./../images/header-bg.png");
   height: 745.48px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+
+  &__info {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: calc(50% - 46.6px);
+  }
+
+  &__timer {
+    width: 240px;
+    height: 64px;
+    background-color: rgba(196, 196, 196, 0.3);
+    font-size: 40px;
+    line-height: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 112px;
+    left: 0;
+  }
+
+  &__social {
+    position: absolute;
+    top: 316.83px;
+    right: 73.62px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header {
+    &__info {
+      left: -100px;
+    }
+
+    &__social {
+      right: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .header {
+    &__timer {
+      top: 163.3px;
+    }
+  }
 }

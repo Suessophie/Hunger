@@ -1,0 +1,25 @@
+.dish {
+  text-align: left;
+  position: relative;
+  color: #333;
+
+  &__name {
+    font-family: "Banny Round", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__description {
+    font-size: 9px;
+    opacity: 0.5;
+  }
+
+  &__price {
+    font-family: "Banny Round", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

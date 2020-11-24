@@ -1,0 +1,85 @@
+.slide {
+  display: flex;
+  height: 537px;
+
+  &--1 {
+    display: flex;
+  }
+
+  &--2 {
+    display: none;
+  }
+
+  &--3 {
+    display: none;
+  }
+
+  &__image {
+    width: 682px;
+    height: 537px;
+  }
+
+  &__content {
+    width: 558.13px;
+    padding-top: 156.2px;
+  }
+
+  &__title {
+    font-family: "Banny Round", sans-serif;
+    font-size: 33.55px;
+    text-transform: uppercase;
+    padding-bottom: 18.63px;
+    margin-bottom: 10px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 60.32px;
+      height: 4.66px;
+      background-color: $yellow;
+      border-radius: 46.59px;
+      position: absolute;
+      bottom: -4.66px;
+      left: calc(50% - 30.16px);
+    }
+  }
+
+  &__text {
+    font-size: 16.77px;
+    font-weight: 300;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+
+    &--bold {
+      font-weight: 600;
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .slide {
+    &__image {
+      display: none;
+    }
+
+    &__content {
+      width: 100%;
+      padding: 156.2px 15px 0;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slide {
+    &__content {
+      padding-top: 90px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+  }
+
+}
