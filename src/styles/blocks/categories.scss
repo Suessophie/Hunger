@@ -1,0 +1,41 @@
+.categories {
+  display: flex;
+  width: 782.75px;
+
+  &__item {
+    width: 111.82px;
+    height: 46.59px;
+    line-height: 46.59px;
+    text-align: center;
+    border-right: 0.93px solid rgba(51, 51, 51, 0.2);
+    color: #333;
+    text-transform: uppercase;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .categories {
+    width: 420px;
+
+    &__item {
+      width: 65px;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .categories {
+    width: 300px;
+
+    &__item {
+      width: 42.85px;
+      height: 35px;
+      font-size: 10px;
+      line-height: 35px;
+    }
+  }
+}

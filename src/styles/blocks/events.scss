@@ -1,0 +1,64 @@
+.events {
+  height: 629px;
+  background-image: url("./../images/specialty\'s-bg.png");
+  text-align: center;
+
+  &__title {
+    letter-spacing: 5.59px;
+    text-transform: uppercase;
+    padding-top: 34.82px;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__info {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 1342px) {
+  .events {
+    &__content {
+      width: 1074px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1074px) {
+  .events {
+    position: relative;
+
+    &__title {
+      margin-bottom: 160px;
+    }
+
+    &__content {
+      width: 300px;
+      flex-direction: column;
+    }
+
+    &__info {
+      position: absolute;
+      bottom: 20px;
+      left: calc(50% - 230px);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .events {
+    &__info {
+      width: 300px;
+      padding: 0 10px;
+      left: calc(50% - 150px);
+    }
+  }
+}

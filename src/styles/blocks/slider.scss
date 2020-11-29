@@ -1,0 +1,33 @@
+.slider {
+  position: relative;
+
+  &__slide {
+    position: absolute;
+    top: 0;
+  }
+
+  &__switches {
+    display: flex;
+    position: absolute;
+    bottom: 41.93px;
+    left: calc(50% - 27.93px);
+  }
+
+  &__button {
+    display: block;
+    width: 9.32px;
+    height: 9.32px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin-right: 18.64px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--active {
+      background-color: #fff;
+    }
+  }
+}
